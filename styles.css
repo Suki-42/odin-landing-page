@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 300px;
+    gap: 100px
+}
+
+.header-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.header-bottom-left {
+    flex: 1;
+}
+
+.header-bottom-left > h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.header-bottom-left > p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.header-bottom-left > button {
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    border-radius: 4px;
+    padding: 0px 15px;
+    height: 25px;
+    align-self: center;
+    color: #F9FAF8;
+}
+
+.header-bottom-right {
+    flex: 1;
+    background-color: #606770;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937; 
+}
+
+.info-container {
+    display: flex;
+    gap: 60px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 158px;
+    align-items: center;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+}
+
+.info-text {
+    display: flex;
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+    
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.signup {
+    display: flex;
+    background-color: #3882F6;
+    margin: 50px 120px;
+    margin-right: 150px;
+    padding: 35px 0;
+    border-radius: 6px;
+    justify-content: space-around;
+}
+
+.signup-left {}
+
+.signup-header {
+    margin: 0;
+    color: #F9FAF8;
+}
+
+.signup-text {
+    margin: 0;
+    color: #F9FAF8;
+}
+
+.signup-button {
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    border-radius: 4px;
+    padding: 0px 15px;
+    height: 25px;
+    align-self: center;
+    color: #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+}
